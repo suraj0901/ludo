@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-light-100 {
+    background-color: #fff;
+    border: 1px solid;
+}
+
+.center {
+    display: grid;
+    place-content: center;
+}
+
+.h-100vh {
+    min-height: 100vh;
+}
+
+.canvas {
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+}
+
+.box {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #000
+}
+
+.border {
+    border: 1px solid;
+}
